@@ -3,6 +3,7 @@ import java.awt.*;
 
 import arduino.*;
 
+//Really not the best implementation but I only had a day so pls give me a break lol
 public class ShockerHero
 {
 	public static void main(String[] args)
@@ -15,9 +16,10 @@ public class ShockerHero
 		a.openConnection();
 		try { 
             Robot robot = new Robot();
-            //Really not the best implementation but I only had a day so pls give me a break lol
             //keeps running until the program is manually terminated
 			while(true){
+				//To make this program overall better, it would've been a good idea to find the combo meter and 
+				//size it appropriately since this only works for 1920x1080p monitors. 
 				img = robot.createScreenCapture(new Rectangle(1205, 680, 10, 10));			
 				
 				
