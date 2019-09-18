@@ -1,5 +1,5 @@
 # Shocker_Hero
-This was a bad idea that ended up becoming a project
+This was a bad joke that ended up being a fun project
 
 Youtube link: https://www.youtube.com/watch?v=Z6r3HKwz2gw&t=2s
 
